@@ -1,0 +1,33 @@
+.search-container{
+    display:flex;
+    justify-content: center;
+    width: 100vw;
+    /* flex-direction: column; */
+    align-items: center;
+    /* height: 100vh; */
+    flex-wrap: wrap;
+    margin-left: 20px;
+    margin-right: 20px;
+    /* border: 1px solid; */
+}
+
+.search-item img{
+    width: 200px;
+    height: 300px;
+    border-radius: 40px;
+    object-fit: cover;
+    padding: 5px;
+}
+
+@media screen and (max-width:450px){
+    .search-item img{
+        width: 150px;
+        height: 250px;
+    }
+    .back_search{
+        margin-left:-15px;
+    }
+    .back_search_icon{
+        margin-top: 30px;
+    }
+}
