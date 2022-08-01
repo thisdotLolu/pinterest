@@ -1,0 +1,52 @@
+.logoProfile{
+    width: 50px;
+    height: 50px;
+    margin-top:20px;
+    margin-left: 43%;
+    margin-right: 43%;
+}
+
+.profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.profile_firstLetter{
+    width: 200px;
+    height: 200px;
+    padding: 45px;
+    border-radius: 50%;
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+}
+.profile_displayName{
+    font-size: 50px;
+    font-weight: bolder;
+}
+.profile_email{
+    color: grey;
+    padding: 10px;
+}
+.followers{
+    font-size: 20px;
+    padding: 10px;
+}
+button{
+    border-radius: 25px;
+    padding: 20px;
+    border: none;
+}
+button:hover{
+    background-color: grey;
+    cursor: pointer;
+}
+.logo_profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
